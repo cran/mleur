@@ -1,0 +1,17 @@
+citHeader("To cite FitAR in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Maximum likelihood unit root test",
+  author       = personList(
+                   as.person("Ying Zhang"),
+                   as.person("Hao Yu"),
+  		   as.person("A. I. McLeod")),
+   year = "2011",
+  journal      = "Working Paper",
+
+  textVersion  =
+  paste("Ying Zhang, Hao Yu and A. I. McLeod (2011).",
+        "Maximum likelihood unit root test",
+        "Working Paper")
+)
+
