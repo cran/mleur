@@ -14,11 +14,11 @@
 
 \details{In paper.}
 
-\value{a vector of length 3 with named elements:
-c("test statistic", "1% critical point", "5% critical point")
+\value{a vector of length 4 with named elements:
+c("test statistic", "1% critical point", "5% critical point", "10% critical point")
 }
 
-\author{ A.I. McLeod}
+\author{ A.I. McLeod and Hao Yu}
 
 \examples{
 mleur(UN)

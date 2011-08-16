@@ -10,8 +10,8 @@ Support for mle unit root tests
 \tabular{ll}{
 Package: \tab mleur\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-08-10\cr
+Version: \tab 1.0-2\cr
+Date: \tab 2011-08-16\cr
 License: GPL (>= 2)\cr
 LazyLoad: \tab yes\cr
 }
