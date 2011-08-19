@@ -1,20 +1,27 @@
 \name{ar1est}
 \alias{ar1est}
-\title{ Exact MLE Mean-Zero AR(1) }
+\title{ MLE or LSE for AR(1) parameter. 
+Sample mean correction used in MLE case.
+Intercept term estimated in LSE case. }
+
 \description{
-Fast exact computation of the MLE for mean-zero AR(1) by solving the likelihood
-equation.
+Fast exact computation of the MLE for AR(1) by solving the likelihood
+equation.  The sample mean correction is used, so  the method is
+not strickly speaking exact but the name derives from the fact
+that if the mean is known and was used instead of the sample mean
+the estimate would be an exact MLE estimate of the parameter in
+the AR(1) model. It has been shown that effect of estimating the sample
+mean is negligible.
 }
 \usage{
-ar1est(z, MeanValue = 0)
+ar1est(z, method = c("MLE", "LSE"))
 }
 \arguments{
   \item{z}{ time series or vector }
-  \item{MeanValue}{ known mean }
+  \item{method}{ must be "MLE" or "LSE" }
 }
 \details{
-
-The exact MLE for mean-zero AR(1) satisfies a cubic equation.  The solution of this
+The exact MLE for mean-zero an AR(1) time series satisfies a cubic equation.  The solution of this
 equation for the MLE given by Zhang (2002) is used.  This approach
 is more reliable as well as faster than the usual approach to the
 exact MLE using a numerical optimization technique which can occasionally
@@ -34,7 +41,10 @@ Ph.D. Thesis, University of Western Ontario.
 
 
 \examples{
-ar1est(UN)
+#compare MLE and LSE for vel series
+ar1est(vel)
+ar1est(vel, method="MLE")
+ar1est(vel, method="LSE")
 }
 
 \keyword{ ts }

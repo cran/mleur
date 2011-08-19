@@ -26,7 +26,7 @@ sample of the residuals}
 \author{ A.I. McLeod and Hao Yu}
 
 \examples{
-mctest(UN, NumRep=100, type="n")
+mctest(DiffBA, NumRep=100, type="n")
 
 }
 \keyword{ ts }

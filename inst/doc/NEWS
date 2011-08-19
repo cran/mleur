@@ -4,3 +4,15 @@ original
 New in Version 1.0-2
 --------------------
 added 10% critical values
+
+Version 1.0-1
+original
+
+New in Version 1.0-3
+--------------------
+new datasets: vel, DiffBA
+removed previous dataset: UN
+included Box-and-Whisker plot and Wilk-Shapiro test in mleurDiag
+changed AR1Est to use sample mean correction automatically in the case of MLE
+changed AR1Est to obtain LSE for AR(1) with intercept term
+

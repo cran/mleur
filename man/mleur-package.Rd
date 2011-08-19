@@ -10,8 +10,8 @@ Support for mle unit root tests
 \tabular{ll}{
 Package: \tab mleur\cr
 Type: \tab Package\cr
-Version: \tab 1.0-2\cr
-Date: \tab 2011-08-16\cr
+Version: \tab 1.0-3\cr
+Date: \tab 2011-08-19\cr
 License: GPL (>= 2)\cr
 LazyLoad: \tab yes\cr
 }
@@ -27,5 +27,5 @@ Maintainer: <aimcleod@uwo.ca>
 \keyword{ ts }
 
 \examples{
-mleur(UN)
+mleur(vel)
 }

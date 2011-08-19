@@ -1,7 +1,7 @@
 \name{mleurDiag}
 \alias{mleurDiag}
 \title{
-Diagnostic check for mleur test
+Diagnostic checks for mleur test
 }
 \description{
 Test for autocorrelation for mleur test
@@ -18,12 +18,13 @@ maximum lag for test. Default setting is "default".
 }
 }
 \details{
+Box-and-Whisker plot of residuals from fitted AR(1) plotted
+along with the p-value for the Wilk-Shairo test.
+The test in the package fBasics is used.
 The p-values of the Box-Ljung portmanteau test are plotted as
 well as the residual autocorrelations.
 }
-\value{
-none, plot is produced
-}
+\value{The residuals are returned invisibly.}
 \author{
 A. I. McLeod
 }

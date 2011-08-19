@@ -29,8 +29,8 @@ The output is a list with components:
 \author{ A.I. McLeod and Hao Yu}
 
 \examples{
-dftest(UN)
-mleur(UN)
+dftest(vel)
+mleur(vel)
 }
 
 \keyword{ ts }

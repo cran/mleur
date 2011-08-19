@@ -17,15 +17,12 @@ function(y, type=c("p", "n")){
     Q01<- -19.51 + 70.09/n - 128.74/(n^2)
     Q05<- -13.02 + 25.05/n - 18.38/(n^2)
     Q10<- -10.1974 + 11.8840/n + 0.8754/(n^2)
-     
-
     }
   ans<-matrix(c(tstat,Q01,Q05,Q10), nrow=4, ncol=1)
   dimnames(ans)[[1]]<-c("test statistic", 
-  	"1% critical point", 
-	"5% critical point",
-	"10% critical point")
+    "1% critical point", 
+    "5% critical point",
+    "10% critical point")
   dimnames(ans)[[2]]<-" "
   ans
   }
-

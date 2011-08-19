@@ -21,7 +21,7 @@ c("test statistic", "1% critical point", "5% critical point", "10% critical poin
 \author{ A.I. McLeod and Hao Yu}
 
 \examples{
-mleur(UN)
+mleur(vel)
 }
 
 \keyword{ts}

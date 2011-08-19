@@ -22,7 +22,7 @@ Computes the MLE unit root test statistic.
 \author{ A.I. McLeod}
 
 \examples{
-testStatUM(UN)
+testStatUM(vel)
 }
 
 \keyword{ts }
