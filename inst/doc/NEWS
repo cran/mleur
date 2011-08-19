@@ -16,3 +16,8 @@ included Box-and-Whisker plot and Wilk-Shapiro test in mleurDiag
 changed AR1Est to use sample mean correction automatically in the case of MLE
 changed AR1Est to obtain LSE for AR(1) with intercept term
 
+New in Version 1.0-4
+--------------------
+updated documentation DiffBA
+updated Table.pdf
+

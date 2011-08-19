@@ -27,7 +27,7 @@ ar1est <- function(z, method=c("MLE", "LSE") ){
     else  {
         m1 <- mean(z[-1])
         m2 <- mean(z[-n])
-        rho <- sum(z[-1]-m1)*(z[-n]-m2)/sum(z[-n]-m2)*(z[-n]-m2)
+        rho <- sum((z[-1]-m1)*(z[-n]-m2))/sum((z[-n]-m2)*(z[-n]-m2))
     }
     rho
 }
