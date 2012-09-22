@@ -1,4 +1,5 @@
-6740f511e49f524612ba63e343eaecb1 *DESCRIPTION
+ee3660b48ac2a9741cee44cae7a1441c *DESCRIPTION
+ae5448b0ce8c7cb85311384744375810 *NAMESPACE
 c2088b1e587413062686c5d1b3e7f824 *R/GetPower.R
 0c62d5c028cddaf1f35a3c5effce8a9d *R/ar1est.R
 6e602206b1b139adf6a7052ddbc4df11 *R/dftest.R
@@ -25,7 +26,7 @@ eef5f71daabea293b676582f7d374a16 *man/DiffBA.Rd
 9b32169c1452dbf86cfb429fb4123a46 *man/ar1est.Rd
 f9363ded60f4cd4be2b7d2fe4dbffcb1 *man/dftest.Rd
 912b04cab75f06267b80f8c6707a92fa *man/mctest.Rd
-7ee481f27871b3572f40322ae3bbb5af *man/mleur-package.Rd
+c1d1846c492b6b681c9f783f92aa80a9 *man/mleur-package.Rd
 9e81c90e5eb5ca778859b4860262c3e1 *man/mleur.Rd
 3ae660688b0b5e7d03725f349b80f1af *man/mleurDiag.Rd
 85e115a762cd9262bb660f3b7d30357a *man/simar1.Rd
