@@ -21,7 +21,8 @@ ar1est(z, method = c("MLE", "LSE"))
   \item{method}{ must be "MLE" or "LSE" }
 }
 \details{
-The exact MLE for mean-zero an AR(1) time series satisfies a cubic equation.  The solution of this
+The exact MLE for mean-zero an AR(1) time series satisfies a cubic equation.  
+The solution of this
 equation for the MLE given by Zhang (2002) is used.  This approach
 is more reliable as well as faster than the usual approach to the
 exact MLE using a numerical optimization technique which can occasionally

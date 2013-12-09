@@ -19,9 +19,11 @@ GetPower(phi, n, NSIM = 1000, tests = c("DF", "MLEp", "MLEn", "MCT"),
   \item{phi}{AR(1) parameter or phi=1 if null is true}
   \item{n}{length of series}
   \item{NSIM}{Number of simulations}
-  \item{tests}{available tests include: DF for Dickey-Fuller, MLEp for exact MLE using pivotal,
-MLEn - exact MLEn using normalized, MCT using Monte-Carlo test}
-  \item{noiseDist}{distribution of innovations: "normal" for Gaussian; "t" for t-distribution;
+  \item{tests}{available tests include: DF for Dickey-Fuller, 
+  MLEp for exact MLE using pivotal,
+  MLEn - exact MLEn using normalized, MCT using Monte-Carlo test}
+  \item{noiseDist}{distribution of innovations: "normal" for Gaussian; 
+    "t" for t-distribution;
   		"stable" for stable distribution; "GARCH11" for GARCH} 
   \item{df}{
 df for t-distribution

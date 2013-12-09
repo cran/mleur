@@ -6,15 +6,17 @@ Exact simulation for AR(1) with normal and non-normal innovations
 }
 
 \usage{
-simar1(phi = 0.5, n = 100, InnovationVariance = 1, noiseDist = c("normal", "t", "stable", "GARCH11"), df = 5, 
-	ALPHA = 1.5, BETA = 0, GAMMA = 1, DELTA = 0, alpha = 0.2, beta = 0.7)
+simar1(phi = 0.5, n = 100, InnovationVariance = 1, noiseDist = c("normal", "t", 
+ "stable", "GARCH11"), df = 5, ALPHA = 1.5, BETA = 0, GAMMA = 1, DELTA = 0, 
+ alpha = 0.2, beta = 0.7)
 }
 
 \arguments{
   \item{phi}{AR(1) parameter}
   \item{n}{length of series}
   \item{InnovationVariance}{innovation variance, if applicable}
-  \item{noiseDist}{distribution of innovations: "normal" for Gaussian; "t" for t-distribution;
+  \item{noiseDist}{distribution of innovations: "normal" for Gaussian; 
+  		"t" for t-distribution;
   		"stable" for stable distribution; "GARCH11" for GARCH} 
   \item{df}{
 df for t-distribution

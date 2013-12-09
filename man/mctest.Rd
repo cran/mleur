@@ -11,7 +11,8 @@ mctest(y, type = c("p", "n"), NumRep = 1000, bootQ = FALSE)
 }
 \arguments{
   \item{y}{the time series to be tested}
-  \item{type}{default "p" for pivotal statistic, otherwise the normalized statistic is used}
+  \item{type}{default "p" for pivotal statistic, otherwise the normalized statistic 
+  is used}
   \item{NumRep}{Number of iterations for Monte-Carlo}
   \item{bootQ}{if FALSE, use NID innovations, otherwise if TRUE a bootstrap
 sample of the residuals}

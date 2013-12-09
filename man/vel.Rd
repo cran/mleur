@@ -11,7 +11,7 @@ Available in the urca package.
 \usage{data(vel)}
 \format{
   The format is:
- Time-Series [1:102] from 1869 to 1970: 5.61 5.16 4.63 5.05 4.95 4.71 4.46 4.65 4.89 5.06 ...
+ Time-Series [1:102] from 1869 to 1970: 5.61 5.16 4.63 5.05 4.95 4.71 4.46 4.65 ...
 }
 
 \source{

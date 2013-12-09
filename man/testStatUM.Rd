@@ -9,7 +9,8 @@ Computes the MLE unit root test statistic.
 
 \arguments{
   \item{y}{time series}
-  \item{type}{default "p" for pivotal statistic, otherwise the normalized statistic is used}
+  \item{type}{default "p" for pivotal statistic, otherwise the normalized 
+  statistic is used}
 }
 
 \details{See paper.}
